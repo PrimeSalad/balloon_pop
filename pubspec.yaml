@@ -1,0 +1,24 @@
+name: balloon_pop
+description: A simple Flutter demo that reproduces a title screen like 'Sign Quest'.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.2
+  audioplayers: ^6.0.0
+  confetti: ^0.7.0 # 🎉 Added confetti for celebration effects
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/complete.png
+    - assets/music/
